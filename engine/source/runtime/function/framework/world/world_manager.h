@@ -44,5 +44,7 @@ namespace Piccolo
 
         //debug level
         std::shared_ptr<LevelDebugger> m_level_debugger;
+
+        std::string m_current_level_url;
     };
 } // namespace Piccolo

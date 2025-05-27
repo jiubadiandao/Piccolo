@@ -2281,6 +2281,11 @@ namespace sol {
 			m_value = nullptr;
 		}
 
+		template <class... Args>
+		void construct(Args&&... args) {
+			m_value = std::addressof(std::forward<Args>(args)...);
+		}
+
 	private:
 		T* m_value;
 	};
