@@ -1,3 +1,5 @@
+fork by--
+
 # Piccolo Engine (formerly Pilot Engine)
 
 <p align="center">
@@ -85,6 +87,7 @@ and
 ```
 sudo codesign --force --deep --sign - bin/PiccoloEditor
 ```
+and be careful for cmakelist low version and vulkansdk
 ### Build on Ubuntu 20.04
 You can execute the **build_linux.sh** to build the binaries.
 
